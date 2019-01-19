@@ -94,10 +94,10 @@ button{
 
 /*main block*/
 main{
-    grid-area: main;
     background-color: #bdc3c7;
-    display: grid;
+    /*display: grid;
     grid-template-areas: 'auto auto auto';
+    grid-area: main;*/
 }
 
 /*footer********************-*/

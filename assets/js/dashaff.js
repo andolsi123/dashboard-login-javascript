@@ -1,7 +1,7 @@
 var local = JSON.parse(localStorage.getItem("items"));
 var localuser = localStorage.getItem("login");
 for (let i = 0; i < local.length; i++) {
-  if (local[i].id === localuser && local[i].dead > Date()) {
+  if (local[i].id === localuser) {
     var div = document.createElement("div");
     div.style.minWidth = "100px";
     div.style.minHeight = "100px";

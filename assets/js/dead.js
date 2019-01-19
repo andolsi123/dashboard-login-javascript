@@ -7,7 +7,7 @@ for (let i = 0; i < local.length; i++) {
     div.style.minHeight = "100px";
     div.style.background = "red";
     div.style.color = "white";
-    div.innerHTML = "to do:" + todo + "</br>" + "deadline:" + deadline;
+    div.innerHTML = "to do:" + local[i].todo + "</br>" + "deadline:" + local[i].deadline;
 
     document.getElementById("mainblock").appendChild(div);
   }
