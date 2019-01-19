@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/login.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/login.css"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+  </head>
 
-</head>
+  <body>
+      <h1>login</h1>
+    <ul>
+      <li><div>name:</div><input type="text" id="name" placeholder="name..."/></li>
+      <li><div>password:</div><input type="password" id="password" placeholder="password..." /></li>
 
-<body>
-    <input type="text" id="name" /> <input type="password" id="password" />
-    <button id="clk">login</button>
-
-    <p id="result"></p>
-
+     <li> <button id="clk">login</button></li>
+     <li><button id="signin">sign up</button></li>
+    </ul>
+    <p id="erreur"></p>
     <script src="./assets/js/login.js"></script>
-</body>
-
+  </body>
 </html>
