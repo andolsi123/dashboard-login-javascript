@@ -1,7 +1,6 @@
 ////////////////addding to dosssss//////////////////
 
 document.getElementById("addtodo").addEventListener("click", addingls);
-
 function addingls() {
   var todo = document.getElementById("textar").value;
   var deadline = document.getElementById("indate").value;
@@ -20,7 +19,7 @@ function addingls() {
   div.style.minHeight = "100px";
   div.style.background = "red";
   div.style.color = "white";
-  div.innerHTML = "to do:"+todo+"</br>"+"deadline:"+deadline;
+  div.innerHTML = "to do: "+todo+"</br>"+"deadline: "+ deadline;
 
   document.getElementById("mainblock").appendChild(div);
   }

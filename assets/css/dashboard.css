@@ -10,7 +10,7 @@ body{
     margin: 0;
     display: grid;
     grid-gap: 0;
-    grid-template-areas: 'nav nav' 'aside main' 'aside footer';
+    grid-template-areas: 'nav nav' 'aside main' 'aside main';
     grid-template-columns: 15% 85%;
     grid-template-rows: 15% 75% 10%;
     color: #fff;
@@ -98,15 +98,4 @@ main{
     /*display: grid;
     grid-template-areas: 'auto auto auto';
     grid-area: main;*/
-}
-
-/*footer********************-*/
-footer{
-    grid-area: footer;
-    background-color: #34495e;
-}
-footer h1{
-    color: #fff;
-    text-align: center;
-    margin-top: 0.2em;
 }
