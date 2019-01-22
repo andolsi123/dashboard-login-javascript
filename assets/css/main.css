@@ -9,8 +9,8 @@ li{
 }
 ul{
     background-color:#34495e ;
-    margin:1.5rem 28rem;
-    width: 20rem;
+    margin:auto auto;
+    width: 27%;
     border-radius: 10px;
 }
 body{
@@ -42,11 +42,7 @@ input{
     line-height: 22px;
     width: 80%;
     letter-spacing: 1px;
-}/*
-input::placeholder{
-    color: darkgrey;
-    padding-left: 1em;
-}*/
+}
 h1{
     font-family: 'Kalam', cursive;
     color:#fff;

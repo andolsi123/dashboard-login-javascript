@@ -7,8 +7,8 @@ body{
 ul{
     list-style: none;
     background: #16a085;
-    margin:1.5rem 28rem;
-    width: 20rem;
+    margin:auto auto;
+    width: 25%;
     border-radius: 10px;
 }
 li{

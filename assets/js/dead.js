@@ -12,15 +12,13 @@ for (let i = 0; i < local.length; i++) {
         parseInt(tododate.getMonth()) === parseInt(date.getMonth()) &&
         parseInt(tododate.getDay()) >= parseInt(date.getDay()))
     ) {
-      var div = document.createElement("div");
-      div.style.minWidth = "100px";
-      div.style.minHeight = "100px";
-      div.style.background = "red";
-      div.style.color = "white";
-      div.innerHTML =
-        "to do: " + local[i].do + "</br>" + "deadline: " + local[i].dead;
+      var create = "<tr>";
 
-      document.getElementById("mainblock").appendChild(div);
+      create += "<td>" + local[i].do + "</td>";
+      create += "<td>" + local[i].dead + "</td>";
+      
+      create += "</tr>";
+      document.getElementById("tab").innerHTML += create;
+    }
     }
   }
-}
